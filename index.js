@@ -20,9 +20,25 @@ const doctors = [
   },
   {
     name: "Dr. Namita Singh",
-    expertise: "PMPTh (Musculoskeletal)",
+    expertise: "MPTh (Musculoskeletal)",
     city: "Bangalore",
   },
+  {
+    name: "Dr. Radhika Kaple",
+    expertise: "MPTh (Musculoskeletal Sciences)",
+    city: "Nagpur",
+  },
+  {
+    name: "Dr. Sheetal Lelani",
+    expertise: "MPTh (Neuro-physiotherapy & Psychosomatic disorders)",
+    city: "Delhi",
+  },
+  {
+    name: "Dr. Manasi Bane",
+    expertise: "MPTh (Neuro Sciences)",
+    city: "Delhi",
+  },
+  
 ];
 // Create an instance of a Router
 const router = express.Router();
